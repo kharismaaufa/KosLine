@@ -1,51 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-
-    <ImageView
-        android:layout_width="450dp"
-        android:layout_height="300dp"
-        android:src="@drawable/logo_kos"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center"/>
+    tools:context=".DisplayScreen">
 
     <TextView
+        android:id="@+id/tvName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="WELCOME!"
+        android:hint="Data"
         android:textColor="#0000FF"
         android:textStyle="bold"
-        android:textSize="40dp"
+        android:textSize="20dp"
         android:fontFamily="sans-serif-medium"
         android:textAlignment="center"/>
 
     <Button
-        android:id="@+id/btnMenuLogin"
+        android:id="@+id/btnDashboard"
         android:layout_width="350dp"
         android:layout_height="50dp"
-        android:text="Login"
+        android:text="Dashboard"
         android:textStyle="bold"
         android:textColor="#fff"
         android:fontFamily="sans-serif-light"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         android:layout_gravity="center"
         android:backgroundTint="@color/purple_700"/>
 
     <Button
-        android:id="@+id/btnMenuRegister"
+        android:id="@+id/btnLogOut"
         android:layout_width="350dp"
         android:layout_height="50dp"
-        android:text="Register"
+        android:text="LogOut"
         android:textStyle="bold"
         android:textColor="#fff"
         android:fontFamily="sans-serif-light"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="@color/purple_700"
-        android:layout_gravity="center"/>
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/purple_700"/>
 
+    <Button
+        android:id="@+id/btnClearData"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="Clear Data"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/purple_700"/>
 </LinearLayout>

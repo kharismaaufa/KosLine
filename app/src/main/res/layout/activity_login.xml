@@ -25,7 +25,7 @@
         android:textAlignment="center"/>
 
     <EditText
-        android:id="@+id/etUsernameLogin"
+        android:id="@+id/etUsername"
         android:layout_width="350dp"
         android:layout_height="45dp"
         android:layout_marginTop="20dp"
@@ -39,7 +39,7 @@
         android:drawablePadding="10dp"/>
 
     <EditText
-        android:id="@+id/etPasswordLogin"
+        android:id="@+id/etPassword"
         android:layout_width="350dp"
         android:layout_height="45dp"
         android:layout_marginTop="10dp"
@@ -74,11 +74,10 @@
         android:fontFamily="sans-serif-light"
         android:layout_marginTop="5dp"
         android:layout_gravity="center"
-        android:background="@drawable/button_rounded"
-        android:onClick="toDashboard"/>
+        android:backgroundTint="@color/purple_700"/>
 
     <TextView
-        android:id="@+id/tvSignup"
+        android:id="@+id/tvSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Don't have an account? Sign Up"
