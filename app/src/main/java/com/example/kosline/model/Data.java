@@ -1,40 +1,44 @@
 package com.example.kosline.model;
 
 public class Data {
-    private  String id, name, email;
+    private  String id, nama, alamat;
 
 
     public Data(){
 
     }
 
-    public Data(String id, String name, String email){
+    public Data(String id, String nama, String alamat){
         this.id = id;
-        this.name = name;
-        this.email = email;
+        this.nama = nama;
+        this.alamat = alamat;
     }
 
     public String getId() {
+
         return id;
     }
 
     public void setId(String id) {
+
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getNama() {
+        return nama;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNama(String nama) {
+        this.nama = nama;
     }
 
-    public String getEmail() {
-        return email;
+    public String getAlamat() {
+
+        return alamat;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setAlamat(String alamat) {
+
+        this.alamat = alamat;
     }
 }

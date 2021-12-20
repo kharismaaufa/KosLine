@@ -14,30 +14,30 @@ import com.example.kosline.helper.Helper;
 
 public class EditorActivity extends AppCompatActivity {
 
-    private EditText editName, editEmail;
+    private EditText editNama, editAlamat;
     private Button btn_Set;
     private Helper db = new Helper(this);
-    private String id, name, email;
+    private String id, nama, alamat;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_editor);
 
-        editName = findViewById(R.id.edit_name);
-        editEmail = findViewById(R.id.edit_email);
+        editNama = findViewById(R.id.edit_nama);
+        editAlamat = findViewById(R.id.edit_alamat);
         btn_Set = findViewById(R.id.btn_Set);
 
         id = getIntent().getStringExtra("id");
-        name = getIntent().getStringExtra("name");
-        email = getIntent().getStringExtra("email");
+        nama = getIntent().getStringExtra("nama");
+        alamat = getIntent().getStringExtra("alamat");
 
         if (id == null || id.equals("")){
-            setTitle("Tambah User");
+            setTitle("Tambah Kost");
         }else {
-            setTitle("Edit User");
-            editName.setText(name);
-            editEmail.setText(email);
+            setTitle("Edit Kost");
+            editNama.setText(nama);
+            editAlamat.setText(alamat);
         }
 
         btn_Set.setOnClickListener(new View.OnClickListener() {
@@ -57,19 +57,19 @@ public class EditorActivity extends AppCompatActivity {
     }
 
     private void save(){
-        if (String.valueOf(editName.getText()).equals("") || String.valueOf(editEmail.getText()).equals("")){
+        if (String.valueOf(editNama.getText()).equals("") || String.valueOf(editAlamat.getText()).equals("")){
             Toast.makeText(getApplicationContext(), "Silahkan Lengkapi Data", Toast.LENGTH_SHORT).show();
         }else{
-            db.insert(editName.getText().toString(), editEmail.getText().toString());
+            db.insert(editNama.getText().toString(), editAlamat.getText().toString());
             finish();
         }
     }
 
     private void edit(){
-        if (String.valueOf(editName.getText()).equals("") || String.valueOf(editEmail.getText()).equals("")){
+        if (String.valueOf(editNama.getText()).equals("") || String.valueOf(editAlamat.getText()).equals("")){
             Toast.makeText(getApplicationContext(), "Silahkan Lengkapi Data", Toast.LENGTH_SHORT).show();
         }else{
-            db.update(Integer.parseInt(id), editName.getText().toString(), editEmail.getText().toString());
+            db.update(Integer.parseInt(id), editNama.getText().toString(), editAlamat.getText().toString());
             finish();
         }
     }

@@ -3,14 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ProjectAndroid/KosLine/app/src/main/res/drawable/border.xml" value="0.21614583333333334" />
         <entry key="..\:/ProjectAndroid/KosLine/app/src/main/res/drawable/button_rounded.xml" value="0.2825641025641026" />
-        <entry key="..\:/ProjectAndroid/KosLine/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
+        <entry key="..\:/ProjectAndroid/KosLine/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
         <entry key="..\:/ProjectAndroid/KosLine/app/src/main/res/layout/activity_editor.xml" value="0.2" />
         <entry key="..\:/ProjectAndroid/KosLine/app/src/main/res/layout/activity_kost.xml" value="0.22" />
         <entry key="..\:/ProjectAndroid/KosLine/app/src/main/res/layout/activity_login.xml" value="0.2708333333333333" />
         <entry key="..\:/ProjectAndroid/KosLine/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/ProjectAndroid/KosLine/app/src/main/res/layout/activity_profile.xml" value="0.2" />
-        <entry key="..\:/ProjectAndroid/KosLine/app/src/main/res/layout/activity_register.xml" value="0.2708333333333333" />
+        <entry key="..\:/ProjectAndroid/KosLine/app/src/main/res/layout/activity_register.xml" value="0.22" />
         <entry key="..\:/ProjectAndroid/KosLine/app/src/main/res/layout/display_info.xml" value="0.264" />
         <entry key="..\:/ProjectAndroid/KosLine/app/src/main/res/layout/list_data.xml" value="0.2" />
         <entry key="..\:/ProjectAndroid/KosLine/app/src/main/res/layout/list_kost.xml" value="0.2" />

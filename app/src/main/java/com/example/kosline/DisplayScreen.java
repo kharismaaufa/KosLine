@@ -33,28 +33,6 @@ public class DisplayScreen extends AppCompatActivity{
             }
         });
 
-        //Tombol Tambah Kost
-        Button btnTambahKost = (Button) findViewById(R.id.btnTambahKost);
-        btnTambahKost.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent toTambahKost = new Intent(DisplayScreen.this, KostActivity.class);
-                startActivity(toTambahKost);
-            }
-        });
-
-        //Tombol LogOut
-        Button btnLogOut = (Button) findViewById(R.id.btnLogOut);
-        btnLogOut.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent LogOut = new Intent(DisplayScreen.this, MainActivity.class);
-                startActivity(LogOut);
-            }
-        });
-
         //Tombol Hapus Data
         Button hapusData = (Button) findViewById(R.id.btnClearData);
         hapusData.setOnClickListener(new View.OnClickListener() {

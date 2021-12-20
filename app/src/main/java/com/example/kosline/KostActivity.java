@@ -44,7 +44,7 @@ public class KostActivity extends AppCompatActivity {
             }
         });
 
-        setTitle("List Users");
+        setTitle("List Kostan");
         listView = findViewById(R.id.list_item);
         adapter = new Adapter(KostActivity.this, list);
         listView.setAdapter(adapter);
@@ -53,8 +53,8 @@ public class KostActivity extends AppCompatActivity {
             @Override
             public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
                 final  String id = list.get(i).getId();
-                final String name = list.get(i).getName();
-                final String email = list.get(i).getEmail();
+                final String nama = list.get(i).getNama();
+                final String alamat = list.get(i).getAlamat();
                 final  CharSequence[] dialogItem = {"Edit", "Hapus"};
                 dialog = new AlertDialog.Builder(KostActivity.this);
                 dialog.setItems(dialogItem, new DialogInterface.OnClickListener() {
@@ -64,8 +64,8 @@ public class KostActivity extends AppCompatActivity {
                             case 0:
                                 Intent intent = new Intent(KostActivity.this, EditorActivity.class);
                                 intent.putExtra("id", id);
-                                intent.putExtra("name", name);
-                                intent.putExtra("email", email);
+                                intent.putExtra("nama", nama);
+                                intent.putExtra("alamat", alamat);
                                 startActivity(intent);
                                 break;
                             case 1:
@@ -86,13 +86,13 @@ public class KostActivity extends AppCompatActivity {
         ArrayList<HashMap<String, String>> rows = db.getAll();
         for (int i = 0; i<rows.size(); i++){
             String id = rows.get(i).get("id");
-            String name = rows.get(i).get("name");
-            String email = rows.get(i).get("email");
+            String nama = rows.get(i).get("nama");
+            String alamat = rows.get(i).get("alamat");
 
             Data data = new Data();
             data.setId(id);
-            data.setName(name);
-            data.setEmail(email);
+            data.setNama(nama);
+            data.setAlamat(alamat);
             list.add(data);
         }
         adapter.notifyDataSetChanged();
