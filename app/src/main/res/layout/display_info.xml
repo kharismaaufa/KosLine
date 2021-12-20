@@ -30,6 +30,18 @@
         android:backgroundTint="@color/purple_700"/>
 
     <Button
+        android:id="@+id/btnTambahKost"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="List Users"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/purple_700"/>
+
+    <Button
         android:id="@+id/btnLogOut"
         android:layout_width="350dp"
         android:layout_height="50dp"

@@ -22,6 +22,12 @@
             android:name=".MainActivity"
             android:exported="true"/>
         <activity
+            android:name=".KostActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".EditorActivity"
+            android:exported="true"/>
+        <activity
             android:name=".DisplayScreen"
             android:exported="true">
             <intent-filter>
