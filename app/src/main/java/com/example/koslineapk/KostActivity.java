@@ -1,4 +1,4 @@
-package com.example.kosline;
+package com.example.koslineapk;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,9 +11,9 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 
-import com.example.kosline.adapter.Adapter;
-import com.example.kosline.helper.Helper;
-import com.example.kosline.model.Data;
+import com.example.koslineapk.adapter.Adapter;
+import com.example.koslineapk.helper.Helper;
+import com.example.koslineapk.model.Data;
 
 import java.util.ArrayList;
 import java.util.Date;

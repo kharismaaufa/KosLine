@@ -1,4 +1,4 @@
-package com.example.kosline.model;
+package com.example.koslineapk.model;
 
 public class Data {
     private  String id, nama, alamat;

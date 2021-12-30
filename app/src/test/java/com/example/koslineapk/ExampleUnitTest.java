@@ -1,4 +1,4 @@
-package com.example.kosline;
+package com.example.koslineapk;
 
 import org.junit.Test;
 

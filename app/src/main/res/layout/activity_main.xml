@@ -25,10 +25,10 @@
         android:textAlignment="center"/>
 
     <Button
-        android:id="@+id/btnMenuLogin"
+        android:id="@+id/Masuk"
         android:layout_width="350dp"
         android:layout_height="50dp"
-        android:text="Login"
+        android:text="Masuk"
         android:textStyle="bold"
         android:textColor="#fff"
         android:fontFamily="sans-serif-light"
@@ -37,10 +37,10 @@
         android:backgroundTint="@color/purple_700"/>
 
     <Button
-        android:id="@+id/btnMenuRegister"
+        android:id="@+id/Daftar"
         android:layout_width="350dp"
         android:layout_height="50dp"
-        android:text="Register"
+        android:text="Daftar"
         android:textStyle="bold"
         android:textColor="#fff"
         android:fontFamily="sans-serif-light"

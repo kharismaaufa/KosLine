@@ -1,4 +1,4 @@
-package com.example.kosline;
+package com.example.koslineapk;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.kosline.helper.Helper;
+import com.example.koslineapk.helper.Helper;
 
 public class EditorActivity extends AppCompatActivity {
 

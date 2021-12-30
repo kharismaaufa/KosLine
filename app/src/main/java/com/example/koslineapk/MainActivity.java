@@ -1,13 +1,11 @@
-package com.example.kosline;
+package com.example.koslineapk;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -16,8 +14,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btnMenuLogin = (Button) findViewById(R.id.btnMenuLogin);
-        Button btnMenuRegister = (Button) findViewById(R.id.btnMenuRegister);
+        Button btnMenuLogin = (Button) findViewById(R.id.Masuk);
+        Button btnMenuRegister = (Button) findViewById(R.id.Daftar);
 
         btnMenuLogin.setOnClickListener(this);
         btnMenuRegister.setOnClickListener(this);
@@ -27,13 +25,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.btnMenuLogin:
-                Intent toLoginActivitiy = new Intent(MainActivity.this, LoginActivity.class);
-                startActivity(toLoginActivitiy);
+            case R.id.Masuk:
+                startActivity(new Intent(MainActivity.this, MasukActivity.class));
                 break;
-            case R.id.btnMenuRegister:
-                Intent toRegisterActivity = new Intent(MainActivity.this, RegisterActivity.class);
-                startActivity(toRegisterActivity);
+            case R.id.Daftar:
+                startActivity(new Intent(MainActivity.this, DaftarActivity.class));
                 break;
         }
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".LoginActivity">
+    tools:context=".DaftarActivity">
 
     <ImageView
         android:layout_width="450dp"
@@ -17,32 +17,32 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Register"
         android:textColor="#0000FF"
         android:textStyle="bold"
-        android:textSize="40dp"
+        android:textSize="20dp"
         android:fontFamily="sans-serif-medium"
         android:textAlignment="center"/>
 
     <EditText
-        android:id="@+id/etUsername"
+        android:id="@+id/name"
         android:layout_width="350dp"
         android:layout_height="45dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         android:layout_gravity="center"
         android:textStyle="bold"
-        android:fontFamily="sans-serif-light"
         android:textColor="#0000FF"
+        android:fontFamily="sans-serif-light"
         android:drawableStart="@drawable/ic_baseline_person_24"
         android:background="@drawable/border"
         android:hint="Username"
         android:drawablePadding="10dp"/>
 
     <EditText
-        android:id="@+id/etPassword"
+        android:id="@+id/password"
         android:layout_width="350dp"
         android:layout_height="45dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:layout_gravity="center"
         android:textStyle="bold"
         android:textColor="#0000FF"
@@ -53,40 +53,57 @@
         android:inputType="textPassword"
         android:drawablePadding="10dp"/>
 
-    <TextView
-        android:id="@+id/tvForgetPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Forget Password?"
-        android:textStyle="bold"
-        android:textSize="16dp"
-        android:fontFamily="sans-serif-condensed-light"
+    <EditText
+        android:id="@+id/password_conf"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
         android:layout_marginTop="5dp"
-        android:layout_marginLeft="250dp"/>
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#0000FF"
+        android:fontFamily="sans-serif-light"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:background="@drawable/border"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:drawablePadding="10dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#0000FF"
+        android:fontFamily="sans-serif-light"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:background="@drawable/border"
+        android:hint="Email"
+        android:drawablePadding="10dp"/>
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btn_daftar"
         android:layout_width="350dp"
         android:layout_height="50dp"
-        android:text="Login"
+        android:text="Register"
         android:textStyle="bold"
         android:textColor="#fff"
         android:fontFamily="sans-serif-light"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:backgroundTint="@color/purple_700"/>
 
     <TextView
-        android:id="@+id/tvSignUp"
+        android:id="@+id/tv_masuk"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Don't have an account? Sign Up"
+        android:text="Already have an account? Sign In"
         android:textSize="16dp"
         android:textStyle="bold"
         android:fontFamily="sans-serif-condensed-light"
         android:textAlignment="center"
         android:layout_marginTop="5dp"
-        android:onClick="toRegister"
         />
 
 </LinearLayout>

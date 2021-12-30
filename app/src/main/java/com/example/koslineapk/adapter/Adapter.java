@@ -1,4 +1,4 @@
-package com.example.kosline.adapter;
+package com.example.koslineapk.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.example.kosline.R;
-import com.example.kosline.model.Data;
+import com.example.koslineapk.R;
+import com.example.koslineapk.model.Data;
 
 import java.util.List;
 
