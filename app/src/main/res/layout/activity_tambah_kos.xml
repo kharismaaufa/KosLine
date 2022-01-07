@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".TambahKos">
+
+    <TextView
+        android:id="@+id/tvNamaKos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Kos"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/namaKos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@+id/tvNamaKos"
+        />
+
+    <TextView
+        android:id="@+id/tvAlamatKos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namaKos"
+        android:text="Alamat Kos"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/alamatKos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@+id/tvAlamatKos"
+        />
+
+    <TextView
+        android:id="@+id/tvFasilitasKos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alamatKos"
+        android:text="Fasilitas Kos"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/fasilitasKos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@+id/tvFasilitasKos"
+        />
+
+    <TextView
+        android:id="@+id/tvBiayaKos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fasilitasKos"
+        android:text="Biaya/bulan"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/biayaKos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@+id/tvBiayaKos"
+        />
+
+    <TextView
+        android:id="@+id/tvDeskripsiKos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/biayaKos"
+        android:text="Deskrpsi Tambahan"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/deskripsiKos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDeskripsiKos"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnSimpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deskripsiKos"
+        android:backgroundTint="@color/green"
+        android:textSize="18dp"
+        android:text="Simpan" />
+
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSimpan"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/red"
+        android:text="Kembali"
+        android:textSize="18dp" />
+</RelativeLayout>

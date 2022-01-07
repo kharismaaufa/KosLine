@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo_kos_background"
+    tools:context=".BantuanActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Bantuan"
+        android:textSize="48dp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KHARISMA AUFA RAMADHANI"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="+6289677714900"
+        android:textSize="24dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/ic_baseline_call_24"
+        android:drawablePadding="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANNISA LUTHFI ENDAH RIZKYA"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="+6281226623274"
+        android:textSize="24dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/ic_baseline_call_24"
+        android:drawablePadding="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ACHMAD DHANY TOMARA"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="+6282122822474"
+        android:textSize="24dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/ic_baseline_call_24"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="100dp"
+        />
+
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSimpan"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/red"
+        android:text="Kembali"
+        android:layout_margin="10dp"
+        android:textSize="18dp" />
+
+  </LinearLayout>

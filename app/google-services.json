@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "563921101576",
+    "project_id": "kosline-e22b9",
+    "storage_bucket": "kosline-e22b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563921101576:android:0081a3396f113293ec42bd",
+        "android_client_info": {
+          "package_name": "com.example.kosline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563921101576-f2a4mvmsavpefkm3952ajtsr7pmuilfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS2xavakQL5KGdo38bZ4XsJNeCAwkhwNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563921101576-f2a4mvmsavpefkm3952ajtsr7pmuilfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

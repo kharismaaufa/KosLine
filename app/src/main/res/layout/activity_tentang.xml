@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo_kos_background"
+    tools:context=".TentangActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Tentang Kami"
+        android:textSize="48dp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:text="Kost/tempat tinggal sementara merupakan suatu hal yang sangat penting bagi mahasiswa yang rumahnya jauh. Oleh sebab itu, Kami mempunyai ide membuat suatu aplikasi tentang informasi-informasi kost untuk mahasiswa Universitas Dian Nuswantoro Semarang. Aplikasi ini dapat membantu mahasiswa untuk mencari kost/rumah tinggal sementara yang diinginkan secara cepat. Pemilik kost juga dimudahkan dalam bidang pemasaran kost milik mereka."
+        />
+
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSimpan"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/red"
+        android:text="Kembali"
+        android:layout_margin="10dp"
+        android:textSize="18dp" />
+
+</LinearLayout>

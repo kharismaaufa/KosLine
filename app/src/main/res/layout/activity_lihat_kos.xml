@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".LihatKos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Kos-Kosan"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_marginTop="24dp"
+        />
+
+    <TextView
+        android:id="@+id/namaKos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat Kos-Kosan"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_marginTop="24dp"
+        />
+
+    <TextView
+        android:id="@+id/alamatKos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fasilitas Kos-Kosan"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_marginTop="24dp"
+        />
+
+    <TextView
+        android:id="@+id/fasilitasKos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Fasilitas Kos"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biaya/Bulan"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_marginTop="24dp"
+        />
+
+    <TextView
+        android:id="@+id/biayaKos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Biaya/Bulan"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi Kos-Kosan"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_marginTop="24dp"
+        />
+
+    <TextView
+        android:id="@+id/deskripsiKos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Deskripsi Kos"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:backgroundTint="@color/red"
+        android:textSize="18dp"
+        android:layout_marginTop="24dp"
+        />
+
+    <Button
+        android:id="@+id/btnMaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buka Peta"
+        android:backgroundTint="@color/green"
+        android:textSize="18dp"
+        android:layout_marginTop="24dp"
+        />
+
+</LinearLayout>
